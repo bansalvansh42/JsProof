@@ -1,4 +1,3 @@
-assessment
 /*
 Assessment Requirements
 1. Create a variable that can hold a number of NFT's. What type of variable might this be?
@@ -27,7 +26,7 @@ function listNFTs () {
         console.log("Actor Name: \t\t" + NFTHolder[i].actorName);
         console.log("Actress Name: \t\t" + NFTHolder[i].actressName);
         console.log("Song Name: \t\t" + NFTHolder[i].songName);
-        console.log("Movie Name: \t" + NFTHolder[i].movieName);
+        console.log("Movie Name: \t\t" + NFTHolder[i].movieName);
     }
 }
 function getTotalSupply() {
